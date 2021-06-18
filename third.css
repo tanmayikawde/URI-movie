@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #adae86;
+}
+.award1{
+    color: orange;
+}
+.award2{
+    color: rgb(255, 255, 255);
+}
+.title1{
+    max-width: 500px;
+	margin: 0 auto;
+    padding-top: 300px;
+    font-family: 'Lobster', cursive;
+    font-weight: 600;
+    font-size: 2rem;
+    color: green;
+}
+h3{
+    font-family: 'Lobster', cursive;
+    padding: 7px;
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+.main{
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+#reviews{
+	background-image: url(./awards.jpg);
+	height: 700px;
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+#reviews::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	z-index: -1;
+}
+table td {
+    border: 3px rgb(103, 101, 101) solid;   
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.name{
+    font-family: 'Bree Serif', serif;
+    font-size: 0.6rem;
+    color: black;
+    font-weight: 900;
+}
+.name1{
+    font-size: 0.4rem;
+    font-family: 'Fira Sans',sans-serif;
+}
+.maintable{
+    padding-top: 300px;
+}
+.maintable a{
+    font-family: 'Bree Serif', serif;
+    font-size: 0.5rem;
+}
+.maintable p{
+    font-family: 'Bree Serif', serif;
+    font-size: 0.5rem;
+    font-weight: 300;
+    color: rgb(180, 240, 241);
+
+}
+.maintable td{
+    font-size: 0.7rem;
+    padding:10px 40px 10px 40px;
+}
+.name2{
+    font-size: 0.3rem;
+    font-family: 'Fira Sans',sans-serif;
+}
+.song{
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 0.7rem;
+    color: rgb(75, 78, 135);
+}
+
+
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color: brown;
+}
